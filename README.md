@@ -7,12 +7,12 @@ index of pages
 4.account details
 5.ewallet
 6.live running status
-7.
-8.
-9.
+7.notifier
+8.e-catering
+9.chart
 10.finding train b/w stations
 11.selecting train and selecting class
-12.
+12.special trains
 13.payment page
 14.print and download ticket 
 15.contact
