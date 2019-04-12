@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>RAILWAY RESERVATION SYSTEM</title>	
+</head>
+<style>
+p1{
+justify-content: center;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button4:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button5 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button5:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button6 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button6:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button7 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button7:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button8 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button8:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button9 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button9:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button10 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button10:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button11 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button11:hover {
+  background-color: #4CAF50;
+  color: white;
+}.button12 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button12:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button13 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.button13:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+p1{     color:black ;
+        font-size:50px;
+}
+</style>
+	<body background="picture1.jpg">
+<center><p1><b>RAILWAY RESERVATION SYSTEM</b></P1></center>
+<button class="button button1" onclick="location.href=''">HOME</button>
+<button class="button button2">FIND TRAIN</button>
+<button class="button button3">PNR STATUS</button>
+<button class="button button4">E-CATERING</button>
+<button class="button button5">FEEDBACK</button>
+<button class="button button6">TRANSACTIONS</button>
+<button class="button button7">MY ACCOUNT</button>
+<button class="button button8">E-WALLET</button>
+<button class="button button9">TRACKING</button>
+<button class="button button13">PRINT-TICKETS</button>
+<button class="button button10">TRAIN CHART</button>
+<button class="button button11">CONTACT</button>
+<button class="button button12">LOGIN</button>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="train1.jpg" height="750" width="100%" >
+</div>
+  <div class="mySlides fade">
+	  <img src="train4.jpg" height="750" width="100%">
+  </div>
+<div class="mySlides fade">
+  <img src="train2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="train3.jpeg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="train4.jpg" height="750" width="100%" >
+</div>
+  <div class="mySlides fade">
+	  <img src="train4.jpg" height="750" width="100%">
+  </div>
+<div class="mySlides fade">
+  <img src="train5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="train6.jpeg" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+<span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+<img src="security.png" align="center" >
+	</body>
+</html>
